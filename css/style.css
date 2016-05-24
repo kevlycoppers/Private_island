@@ -62,6 +62,15 @@ main {
   margin: 10px;
 }
 
+#homeswag {
+  width: 90%;
+  border-radius: 4px;
+}
+
+main p {
+  padding: 3px 20px 10px 20px;
+}
+
 @media screen and (min-width: 850px) {
   header h1 {
     font-size: 60px;
@@ -70,5 +79,16 @@ main {
   .menu {
     font-size: 20px;
     padding-right: 7px;
+  }
+  #homeswag {
+    width: 60%;
+    border-radius: 4px;
+  }
+  main p {
+    padding: 3px 20px 10px 20px;
+    margin: 0 17%;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
   }
 }
