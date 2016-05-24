@@ -1,5 +1,5 @@
 body {
-  background-color: #FDFEAA;
+  background-color: #000;
   margin-top: 8;
 }
 
@@ -7,17 +7,18 @@ body {
   width: 90%;
   margin: auto;
   text-align: center;
-  background-color: #D2ED9E;
+  background-color: #042037;
   border-radius: 10px
 }
 
 header {
-  border-bottom: 4px solid #D3D46A;
+  border-bottom: 4px solid #718EA4;
   padding: 0 6px;
 }
 
 footer {
-  border-top: 4px solid #D3D46A;
+  border-top: 4px solid #718EA4;
+  color: #FF3333;
 }
 
 footer p {
@@ -27,9 +28,9 @@ footer p {
 
 header h1 {
   display: inline-block;
-  font-family: Pacifico, cursive;
-  color: #004304;
-  text-shadow: 5px 5px 9px rgba(253,254,170,1);
+  font-family: Anton, sans-serif;
+  color: #AEDE94;
+  text-shadow: 3px 3px 2px rgba(253,254,170,.6);
   margin-bottom: 0;
 }
 
@@ -46,7 +47,7 @@ nav li {
 
 .menu {
   text-decoration: none;
-  color: #002102;
+  color: #FFEE44;
   padding-right: 2px;
 }
 
@@ -58,13 +59,20 @@ nav li {
   font-weight: bolder;
 }
 
+.gallery {
+  width: 40%;
+  border-radius: 44%;
+}
+
 main {
   margin: 10px;
+  color: #ffeecc;
+  font-family: sans-serif;
 }
 
 #homeswag {
   width: 90%;
-  border-radius: 4px;
+  border-radius: 42%;
 }
 
 main p {
@@ -89,6 +97,6 @@ main p {
     margin: 0 17%;
     font-size: 25px;
     font-weight: lighter;
-    font-style: italic;
+    font-family: sans-serif;
   }
 }
